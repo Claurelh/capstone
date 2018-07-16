@@ -288,11 +288,15 @@ img.banner {
   display: flex;
   flex-direction: column;
   margin-left: 24px;
-  width: auto;
+  width: 60%;
+}
+
+.exhibit-video source {
+  width: 100%;
 }
 
 .video-words {
-  width: 60%;
+  width: 100%;
 }
 
 .exhibit-novideo {
