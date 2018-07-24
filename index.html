@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./resources/css/style.css" type="text/css">
     <link rel="stylesheet" href="./resources/css/reset.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Markazi+Text:400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet"
 
   </head>
   <body>
@@ -39,16 +39,14 @@
     <!-- First Section Start -->
   <div class="something-container">
       <div class="something-item">
-        <div class="something-banner">
+          <div class="banner-container">
             <img class="banner" src="./resources/images/banner.jpg" alt="lady reading">
+          </div>
           <div class="hail-mary">
             <h1>Learn something new everyday</h1>
             <span class="something-words">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-            <div class="button-container">
-              <span class="something-button" href="#">Start Here</span>
-            </div>
+            <span class="something-button" href="#">Start Here</span>
           </div>
-        </div>
       </div>
   </div>
     <!-- First Section End -->
@@ -65,42 +63,50 @@
           </div>
         </div>
 
-      <!-- Desktop Details Section -->
+      <!-- Desktop Details Edit -->
         <div class="details-container">
           <div class="details">
-            <img class="desktop-picture" src="./resources/images/information-orientation.jpg" alt="students walking to class">
+            <div class="image-container">
+              <img class="desktop-picture" src="./resources/images/information-orientation.jpg" alt="students walking to class">
+            </div>
             <div class="details-info">
               <h3 class="deets">Orientation date</h3>
               <p class="deets">Tue 10/11 & Wed 10/12: 8am-3pm</p>
-              <span class="deets">Read more</span>
+              <span class="read">Read more</span>
             </div>
           </div>
 
          <div class="details">
-           <img class="desktop-picture" src="./resources/images/information-campus.jpg" alt="classroom">
+           <div class="image-container">
+             <img class="desktop-picture" src="./resources/images/information-campus.jpg" alt="classroom">
+           </div>
            <div class="details-info">
              <h3 class="deets">Our Campus</h3>
              <p class="deets">Find which campus is close by you</p>
-             <span class="deets">Read more</span>
+             <span class="read">Read more</span>
            </div>
          </div>
 
          <div class="details">
-           <img class="desktop-picture" src="./resources/images/information-guest-lecture.jpg" alt="old man">
+           <div class="image-container">
+             <img class="desktop-picture" src="./resources/images/information-guest-lecture.jpg" alt="old man">
+           </div>
            <div class="details-info">
              <h3 class="deets">Our guest lecture</h3>
              <p class="deets">Join a keynote with Oliver Sack about music in medical treatment</p>
-             <span class="deets">Read more</span>
+             <span class="read">Read more</span>
            </div>
          </div>
         </div>
       </div>
-      <!-- Details Desktop Section -->
+      <!-- Details Desktop Edit -->
 
       <!-- Mobile Details Edit -->
         <div class="practice-mobile">
           <div class="details">
-            <img class=" mobile-picture" src="./resources/images/information-orientation-mobile.jpg" alt="students walking to class">
+            <div class="image-container">
+              <img class=" mobile-picture" src="./resources/images/information-orientation-mobile.jpg" alt="students walking to class">
+            </div>
             <div class="details-info">
               <h3>Orientation date</h3>
               <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
@@ -108,7 +114,9 @@
             </div>
           </div>
           <div class="details">
-            <img class="mobile-picture" src="./resources/images/information-campus-mobile.jpg" alt="classroom">
+            <div class="image-container">
+              <img class="mobile-picture" src="./resources/images/information-campus-mobile.jpg" alt="classroom">
+            </div>
             <div class="details-info">
               <h3>Our guest lecture</h3>
               <p>Join a keynote with Oliver Sack about music in medical treatment</p>
@@ -116,7 +124,9 @@
             </div>
           </div>
           <div class="details">
-            <img class="mobile-picture" src="./resources/images/information-guest-lecture-mobile.jpg" alt="old man">
+            <div class="image-container">
+              <img class="mobile-picture" src="./resources/images/information-guest-lecture-mobile.jpg" alt="old man">
+            </div>
             <div class="details-info">
               <h3>Our guest lecture</h3>
               <p>Join a keynote with Oliver Sack about music in medical treatment</p>
@@ -191,43 +201,43 @@
     <!-- Third Section End -->
 
 <!-- Fourth Section Start -->
-<div class="exhibit-container">
-  <h1>Thesis exhibit</h1>
-  <div class="exhibit-item">
+    <div class="exhibit-container">
+      <h1>Thesis exhibit</h1>
+      <div class="exhibit-item">
+        <div class="exhibit-video">
+          <video width="100%" height="100%" controls>
+            <source src="./resources/videos/thesis.mp4" type="video/mp4"> <!--autoplay poster="posterimage.jpg"-->
+          </video>
+          <div class="video-words">
+            <h4>Reimagine Urban</h4>
+            <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+          </div>
+        </div>
 
-    <div class="exhibit-video">
-      <video width="100%" height="100%" controls>
-        <source src="./resources/videos/thesis.mp4" type="video/mp4"> <!--autoplay poster="posterimage.jpg"-->
-      </video>
-      <div class="video-words">
-        <h4>Reimagine Urban</h4>
-        <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+        <div class="exhibit-novideo">
+          <div class="fisma">
+            <div class="image-container">
+              <img src="./resources/images/thesis-fisma.jpg" alt="writing on paper and iPhone">
+            </div>
+            <div class="sub-fisma">
+              <h3 class="fisma-words">Fisma: Design and Prototype</h3>
+              <p class="fisma-words">Designer showcase of prototype product</p>
+            </div>
+          </div>
+
+          <div class="fisma">
+            <div class="image-container">
+              <img src="./resources/images/thesis-now-and-then.jpg" alt="empire state building">
+            </div>
+            <div class="sub-fisma">
+              <h3 class="fisma-words">Now and then</h3>
+              <p class="fisma-words">Research study about New York</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
-
-    <div class="exhibit-novideo">
-      <div class="fisma">
-        <div class="image-container">
-          <img src="./resources/images/thesis-fisma.jpg" alt="writing on paper and iPhone">
-        </div>
-        <img src="./resources/images/thesis-fisma.jpg" alt="writing on paper and iPhone">
-        <div class="sub-fisma">
-          <h3>Fisma: Design and Prototype</h3>
-          <p>Designer showcase of prototype product</p>
-        </div>
-      </div>
-      <div class="fisma">
-        <div class="image-container">
-          <img src="./resources/images/thesis-now-and-then.jpg" alt="empire state building">
-        </div>
-        <div class="sub-fisma">
-          <h3>Now and then</h3>
-          <p>Research study about New York</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
     <!-- Fourth Section End -->
 
     <!-- Footer Start -->
